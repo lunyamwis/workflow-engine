@@ -1,0 +1,274 @@
+########################
+#  PYTHON BASICS
+########################
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+**/*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PyBuilder
+target/
+
+########################
+#  VIRTUAL ENVIRONMENTS
+########################
+
+venv/
+ENV/
+env/
+.venv/
+.env/
+env.bak/
+venv.bak/
+
+########################
+#  ENVIRONMENT FILES
+########################
+
+# Environment / secrets
+*.env
+*.env.*
+.envrc
+*.ini.local
+*.secret
+*.credentials
+
+########################
+#  LOGS & TEMP FILES
+########################
+
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+########################
+#  EDITOR / IDE SETTINGS
+########################
+
+# VS Code
+.vscode/
+.history/
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.un~
+*~
+Session.vim
+.netrw*
+
+# Eclipse + PyDev
+.project
+.pydevproject
+
+########################
+#  DJANGO
+########################
+
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+local_settings.py
+
+########################
+#  FLASK / FASTAPI
+########################
+
+instance/
+.webassets-cache/
+
+########################
+#  ANACONDA
+########################
+
+.conda/
+conda-meta/
+*.conda
+*.pickle
+
+########################
+#  CELERY
+########################
+
+celerybeat-schedule
+celerybeat.pid
+
+########################
+#  SCRAPY
+########################
+
+.scrapy
+
+########################
+#  SPHINX DOCUMENTATION
+########################
+
+docs/_build/
+
+########################
+#  PYRE, MYPY, PYLINT
+########################
+
+.pyre/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+pylint-report.txt
+pylint-output.txt
+
+########################
+#  DATABASES & DATA FILES
+########################
+
+*.db
+*.db-*
+*.sql
+*.sqlite
+*.sqlite3
+*.rdb
+*.mdb
+*.backup
+*.bak
+*.jsonl
+
+########################
+#  MACHINE LEARNING / DATA SCIENCE
+########################
+
+# Model artifacts
+*.model
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.joblib
+*.pkl
+*.pickle
+
+# Large data files
+data/
+datasets/
+*.csv
+*.tsv
+*.parquet
+*.feather
+
+# Cache
+.mlflow/
+wandb/
+lightning_logs/
+
+########################
+#  DOCKER
+########################
+
+*.pid
+docker-compose.override.yml
+
+########################
+#  NODE / FRONTEND INSIDE PYTHON PROJECTS
+########################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+dist/
+build/
+
+########################
+#  OS FILES
+########################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+########################
+#  MISC
+########################
+
+*.orig
+*.bak
+*.rej
+*.swp
+*.swo
+
